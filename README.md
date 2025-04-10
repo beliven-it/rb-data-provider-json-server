@@ -2,12 +2,12 @@
 
 A [Restboard](https://restboard.github.io/) data provider for JSON REST server
 
-[![Node.js CI](https://github.com/restboard/rb-data-provider-json-server/actions/workflows/node.js.yml/badge.svg)](https://github.com/restboard/rrb-data-provider-json-server/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/beliven-it/rb-data-provider-json-server/actions/workflows/node.js.yml/badge.svg)](https://github.com/beliven-it/rrb-data-provider-json-server/actions/workflows/node.js.yml)
 
 ## Getting started
 
 ```js
-import createProvider from "rb-data-provider-json-server";
+import createProvider from "@beliven/rb-data-provider-json-server";
 
 const provider = createProvider("https://jsonplaceholder.typicode.com");
 
@@ -72,7 +72,7 @@ If you want, you can also freely donate to fund the project development:
 
 Please open a new issue on:
 
-<https://github.com/restboard/rb-data-provider-json-server/issues>
+<https://github.com/beliven-it/rb-data-provider-json-server/issues>
 
 ## Acknowledgements
 

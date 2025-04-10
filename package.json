@@ -1,5 +1,5 @@
 {
-  "name": "rb-data-provider-json-server",
+  "name": "@beliven/rb-data-provider-json-server",
   "version": "0.33.0",
   "description": "A Restboard data provider for JSON REST server",
   "main": "src/index.js",
@@ -22,17 +22,20 @@
   "author": "Emanuele Bertoldi <emanuele.bertoldi@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/restboard/rb-data-provider-json-server/issues"
+    "url": "https://github.com/beliven-it/rb-data-provider-json-server/issues"
   },
-  "homepage": "https://github.com/restboard/rb-data-provider-json-server#readme",
+  "homepage": "https://github.com/beliven-it/rb-data-provider-json-server#readme",
   "dependencies": {
     "cross-fetch": "^4.0.0"
   },
   "peerDependencies": {
-    "rb-core-module": "^0.32.0"
+    "@beliven/rb-core-module": "^0.32.0"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
     "tap": "^18.6.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -1,4 +1,4 @@
-import { RbDataProvider } from "rb-core-module";
+import { RbDataProvider } from "@beliven/rb-core-module";
 import { defaultClient, renderQuerystring, retryCodes } from "./http.js";
 
 class RbDataProviderJsonServer extends RbDataProvider {
